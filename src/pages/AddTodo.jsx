@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 const AddTodo = () => {
   const navigate = useNavigate();
   return (
@@ -15,13 +17,13 @@ const AddTodo = () => {
         <div className="d-grid gap-2">
           <button
             className="btn btn-primary btn-lg rounded-3"
-            onClick={() => navigate("/todos")}
+            onClick={() => navigate("todos")}
           >
             Add Task
           </button>
           <button
             className="btn btn-link text-muted"
-            onClick={() => navigate("/todos")}
+            onClick={() => navigate("todos")}
           >
             Cancel
           </button>
