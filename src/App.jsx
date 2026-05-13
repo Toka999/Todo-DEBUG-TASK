@@ -16,7 +16,7 @@ function App() {
           </Route>
         </Routes>
       </main>
-    </digi
+    </div>
   );
 }
 export default App;
